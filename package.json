@@ -1,0 +1,26 @@
+{
+  "name": "@laqus/auth-front",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^9.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "jwt-decode": "^3.1.2",
+    "keycloak-js": "^22.0.1"
+  }
+}
